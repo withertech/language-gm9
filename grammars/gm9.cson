@@ -1,0 +1,169 @@
+'scopeName': 'source.gm9'
+'name': 'gm9'
+'fileTypes': ['gm9']
+
+'patterns': [
+	{
+		'begin': '\"'
+		'end': '\"'
+		'name': 'string.quoted.double.gm9'
+	},
+	{
+		'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b'
+		'name': 'constant.numeric.gm9'
+	},
+	{
+		'match': '#.*$'
+		'name': 'constant.numeric.gm9'
+	},
+	{
+		'match': '\\b(echo)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(qr)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(chk)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(ask)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(set)\\s+(\\w+)\\s*'
+		'captures':
+			'1':
+				'name': 'support.function.gm9'
+			'2':
+				'name': 'variable.other.gm9'
+		'name': 'meta.function.gm9'
+	},
+	{
+		'match': '\\b(input)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(filesel)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(dirsel)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(allow)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(mkdir)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(fdummy)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(cp)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(rm)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(mv)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(imgmount)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(imgumount)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(sha)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(shaget)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(findnot)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(labelsel)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(find)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(inject)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(reboot)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(poweroff)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(verify)'
+		'name': 'support.function.gm9'
+	},
+	{
+		'match': '\\b(if)'
+		'name': 'keyword.control.gm9'
+	},
+	{
+		'match': '\\b(else)'
+		'name': 'keyword.control.gm9'
+	},
+	{
+		'match': '\\b(end)'
+		'name': 'keyword.control.gm9'
+	},
+	{
+		'match': '\\b(not)'
+		'name': 'keyword.control.gm9'
+	},
+	{
+		'match': '\\b(goto)\\s+(\\w+)\\s*'
+		'captures':
+			'1':
+				'name': 'keyword.control.gm9'
+			'2':
+				'name': 'entity.name.function.gm9'
+		'name': 'meta.function.gm9'
+	},
+	{
+		'match': '(@)(.*$)'
+		'captures':
+			'1':
+				'name': 'keyword.control.gm9'
+			'2':
+				'name': 'entity.name.function.gm9'
+		'name': 'meta.function.gm9'
+	},
+	{
+		'match': '(\\$\\[)([^\\]\\r\\n]*)(\\])'
+		'captures':
+			'1':
+				'name': 'keyword.control.gm9'
+			'2':
+				'name': 'variable.other.gm9'
+			'3':
+				'name': 'keyword.control.gm9'
+		'name': 'meta.function.gm9'
+	}
+]

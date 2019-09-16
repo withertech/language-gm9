@@ -1,0 +1,17 @@
+{
+  "name": "language-gm9",
+  "version": "0.0.0",
+  "description": "Godmode9 script language support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/withertech/language-gm9.git"
+  },
+  "bugs": {
+    "url": "https://github.com/withertech/language-gm9/issues"
+  },
+  "license": "MIT"
+}
