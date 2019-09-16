@@ -1,6 +1,6 @@
 {
   "name": "language-gm9",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Godmode9 script language support in Atom",
   "engines": {
     "atom": "*"
